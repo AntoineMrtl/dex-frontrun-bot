@@ -1,0 +1,19 @@
+{
+  "name": "frontrun-bot",
+  "version": "1.0.0",
+  "description": "A bot to front run the DEX purchase transactions on the DeFi. It analyzes many parameters to allow it to be profitable.",
+  "main": "frontrun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abi-decoder": "^2.4.0",
+    "axios": "^1.4.0",
+    "bignumber.js": "^9.1.1",
+    "colors": "^1.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^4.0.1"
+  }
+}
